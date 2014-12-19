@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Embouteillage Bastidien</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/app.css">
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular-route.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular-animate.js"></script>
+		<script src="app/app.js"></script>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body ng-app="animateApp">
+		<h1 class="text-center">Hello World</h1>
+        <p>Nothing here {{ 'yet' + '!' + pageClass }}</p>
+        <p><a href="#/test">lel</a></p>
+        
+        <div class="{{ pageClass }}" ng-view></div>
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

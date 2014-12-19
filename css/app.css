@@ -1,0 +1,12 @@
+.ng-enter, .ng-leave{
+    -webkit-animation-duraction:1s;
+    -webkit-animation-fill-mode:both;
+}
+
+.ng-enter{
+    -webkit-animation-name : fadeInUp;
+}
+
+.ng-leave{
+    -webkit-animation-name : fadeOutDown;
+}
